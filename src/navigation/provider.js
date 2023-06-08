@@ -10,7 +10,7 @@ const RegisterPage = lazy(() => import('../pages/auth/RegisterPage'))
 const CalendarPage = lazy(() => import('../pages/calendar/CalendarPage'))
 
 export const AppRouterProvider = () => (
-  <BrowserRouter basename={BASE_GITHUB_PAGES_URL}>
+  <BrowserRouter basename='/asasas'>
     <Suspense fallback={<Loader />}>
       <Routes>
         <Route element={<MainLayout />}>
