@@ -3,7 +3,7 @@ import { ROUTES } from './routes'
 import { Loader, MainLayout } from '../components'
 import { lazy, Suspense } from 'react'
 import { useAuthContext } from '../contexts/auth'
-import { BASE_GITHUB_PAGES_URL } from '../utils/constants'
+
 
 const LoginPage = lazy(() => import('../pages/auth/LoginPage'))
 const RegisterPage = lazy(() => import('../pages/auth/RegisterPage'))
