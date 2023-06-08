@@ -17,6 +17,7 @@
     "axios": "^1.4.0",
     "clear": "^0.1.0",
     "dayjs": "^1.11.7",
+    "eslint-config-prettier": "^8.8.0",
     "formik": "^2.4.1",
     "i18next": "^22.5.0",
     "localforage": "^1.10.0",
