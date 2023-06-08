@@ -58,8 +58,10 @@
       "last 1 safari version"
     ]
   },
-
   "resolutions": {
     "styled-components": "^5"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
   }
 }
