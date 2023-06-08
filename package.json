@@ -4,6 +4,7 @@
   "homepage": "https://IvettaDashkova.github.io/asasas",
   "private": true,
   "dependencies": {
+    "@eslint/eslintrc": "^2.0.3",
     "@fullcalendar/core": "^6.1.8",
     "@fullcalendar/daygrid": "^6.1.8",
     "@fullcalendar/interaction": "^6.1.8",
@@ -37,6 +38,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint src//**/*.{js,jsx,ts,tsx,css,md,json}",
+    "lint:js": "eslint src/**/*.{js,jsx}",
     "lint:fix": "eslint --fix src//**/*.{js,jsx,ts,tsx,css,md,json}",
     "format": "prettier --write src//**/*.{js,jsx,ts,tsx,css,md,json} --config ./.prettierrc",
     "deploy": "gh-pages -d build"
